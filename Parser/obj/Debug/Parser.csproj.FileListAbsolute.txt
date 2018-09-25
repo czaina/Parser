@@ -1,0 +1,10 @@
+E:\repo\Parser\Parser\obj\Debug\Parser.csprojResolveAssemblyReference.cache
+E:\repo\Parser\Parser\obj\Debug\Parser.Form1.resources
+E:\repo\Parser\Parser\obj\Debug\Parser.Properties.Resources.resources
+E:\repo\Parser\Parser\obj\Debug\Parser.csproj.GenerateResource.cache
+E:\repo\Parser\Parser\obj\Debug\Parser.csproj.CoreCompileInputs.cache
+E:\repo\Parser\Parser\bin\Debug\Parser.exe.config
+E:\repo\Parser\Parser\bin\Debug\Parser.exe
+E:\repo\Parser\Parser\bin\Debug\Parser.pdb
+E:\repo\Parser\Parser\obj\Debug\Parser.exe
+E:\repo\Parser\Parser\obj\Debug\Parser.pdb
