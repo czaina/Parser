@@ -85,19 +85,10 @@ namespace Parser
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Plik = new CFragment();
-            CFragment temp;
-
-            Plik.text = textBox1.Lines[0];
-            temp = Plik.Nowy(textBox1.Lines[1]);
-            for (int i=2;i<10;i++)
-            {
-                  temp = temp.Nowy(textBox1.Lines[i]);
-            }
+            Plik = new CFragment(textBox1.Text);
 
             textBox2.Clear();
 
-            temp = Plik;
             Plik.PrintAll(textBox2);
         }
     }
