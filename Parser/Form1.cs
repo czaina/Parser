@@ -91,5 +91,25 @@ namespace Parser
 
             Plik.PrintAll(textBox2);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            string text;
+            string[] fragmenty;
+            string[] separator = new string[] { "//"};
+
+            text = textBox3.Text;
+            textBox6.Text = separator[0];
+            fragmenty = text.Split(separator, 2, System.StringSplitOptions.None);
+            //[0] istnieje zawsze i zawiera to co przed separatorem
+            //[1] istnieje tylko gdy jest separator
+            if (fragmenty.Count() > 0) textBox4.Text = fragmenty[0]; else textBox4.Text = "---";
+            if (fragmenty.Count() > 1) textBox5.Text = fragmenty[1]; else textBox5.Text = "---";
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
